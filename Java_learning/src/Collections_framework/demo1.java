@@ -1,4 +1,4 @@
-package Java_Basic;
+package Collections_framework;
 
 public class demo1 {
 

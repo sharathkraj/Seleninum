@@ -1,4 +1,4 @@
-package Java_Basic;
+package Collections_framework;
 
 import java.util.ArrayList;
 import java.util.List;
