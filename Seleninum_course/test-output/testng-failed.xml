@@ -6,7 +6,7 @@
       <class name="testNG.Test_Suite">
         <methods>
           <include name="openBrowser"/>
-          <include name="openGoogle"/>
+          <include name="openYahoo"/>
           <include name="closeBrowse"/>
         </methods>
       </class> <!-- testNG.Test_Suite -->
