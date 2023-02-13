@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class report {
@@ -26,8 +27,10 @@ public class report {
 	String title = driver.getTitle();
 	
 	if(title.equals("Google")) {
+		testcase.log(Status.PASS, "Actual title and expected title are equal");
 		System.out.println("Passed");
 	}else {
+		testcase.log(Status.PASS, "Actual title and expected title are not equal");
 		System.out.println("Failed google");
 	}
 	
@@ -40,8 +43,10 @@ public class report {
 		String title = driver.getTitle();
 		
 		if(title.equals("bing")) {
+			testcase.log(Status.PASS, "Actual title and expected title are equal");
 			System.out.println("Passed");
 		}else {
+			testcase.log(Status.PASS, "Actual title and expected title are not equal");
 			System.out.println("Failed bing");
 		}
 			
@@ -54,8 +59,10 @@ public class report {
 		
 		String title = driver.getTitle();
 		if(title.equals("yahoo")) {
+			testcase.log(Status.PASS, "Actual title and expected title are equal");
 			System.out.println("Passed");
 		}else {
+			testcase.log(Status.PASS, "Actual title and expected title are not equal");
 			System.out.println("Failed yahoo");
 		}
 		
