@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Logincases">
+ 
+ <test name="Logincases">
+     <classes>
+       <class name="Login_cases.Valid_credentials"/>
+     </classes>
+ </test><!-- Test -->
+ 
+  <test name="Logincases">
+     <classes>
+       <class name="Login_cases.Invalid_credentials"/>
+       </classes>
+ </test><!-- Test -->
+ 
+  <test name="Logincases">
+     <classes>
+       <class name="Login_cases.Valid_username"/>
+       </classes>
+ </test><!-- Test -->
+ 
+  <test name="Logincases">
+     <classes>
+       
+       <class name="Login_cases.Valid_Password"/>
+       </classes>
+ </test><!-- Test -->
+</suite><!-- Test -->
