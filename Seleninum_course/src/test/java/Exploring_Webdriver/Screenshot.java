@@ -23,10 +23,7 @@ public class Screenshot {
 
 	public static void main(String[] args) throws IOException, AWTException {
 		// TODO Auto-generated method stub
-		WebDriver driver;
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\fbdev\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		
-		driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	        

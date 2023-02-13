@@ -10,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Alerts {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\fbdev\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://www.leafground.com/alert.xhtml;jsessionid=node010r3tni8w2wr110ld7omgpzyar91783.node0");

@@ -16,7 +16,6 @@ public class Upload {
 	public static void main(String[] args) throws InterruptedException, AWTException {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\fbdev\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://www.leafground.com/file.xhtml");

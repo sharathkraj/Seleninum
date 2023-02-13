@@ -9,14 +9,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
 
 public class KeyActions {
 
 	public static void main(String[] args) throws AWTException {
 	
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\fbdev\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://candidatex:qa-is-cool@qa-task.backbasecloud.com/");
