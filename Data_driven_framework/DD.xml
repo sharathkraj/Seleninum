@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Logincases">
+	
+ <test name="Logincases">
+     <classes>
+       <class name="Dataprovider.Logincases"/>
+       </classes>
+ </test><!-- Test -->
+	
  
  
   <test name="Invalid_credentials">
-	 <parameter name="name" value="prabhu12343423"/>
+	 <parameter name="name" value="prabhu12343423"/> 
 	 <parameter name="name1" value="12345234"/>
      <classes>
        <class name="Logincases.Invalid_credentials"/>
@@ -33,6 +40,7 @@
      <classes>
        <class name="Logincases.Valid_credentials"/>
      </classes>
- </test><!-- Test -->
+ </test><!-- Test --> 
+ 
  
 </suite><!-- Test -->
