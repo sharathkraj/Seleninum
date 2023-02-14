@@ -2,28 +2,37 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Logincases">
  
- <test name="Logincases">
+ 
+  <test name="Invalid_credentials">
+	 <parameter name="name" value="prabhu12343423"/>
+	 <parameter name="name1" value="12345234"/>
      <classes>
-       <class name="Login_cases.Valid_credentials"/>
+       <class name="Logincases.Invalid_credentials"/>
+       </classes>
+ </test><!-- Test -->
+ 
+  <test name="Valid_username">
+	 <parameter name="name" value="prabhu1234"/>
+	 <parameter name="name1" value="1234gsg5"/>
+     <classes>
+       <class name="Logincases.Valid_username"/>
+       </classes>
+ </test><!-- Test -->
+ 
+  <test name="Valid_Password">
+	 <parameter name="name" value="prabhu"/>
+	 <parameter name="name1" value="12345"/>
+     <classes>
+       <class name="Logincases.Valid_Password"/>
+       </classes>
+ </test><!-- Test -->
+ 
+ <test name="Valid_credentials">
+	 <parameter name="name" value="prabhu123"/>
+	 <parameter name="name1" value="12345"/>
+     <classes>
+       <class name="Logincases.Valid_credentials"/>
      </classes>
  </test><!-- Test -->
  
-  <test name="Logincases">
-     <classes>
-       <class name="Login_cases.Invalid_credentials"/>
-       </classes>
- </test><!-- Test -->
- 
-  <test name="Logincases">
-     <classes>
-       <class name="Login_cases.Valid_username"/>
-       </classes>
- </test><!-- Test -->
- 
-  <test name="Logincases">
-     <classes>
-       
-       <class name="Login_cases.Valid_Password"/>
-       </classes>
- </test><!-- Test -->
 </suite><!-- Test -->
