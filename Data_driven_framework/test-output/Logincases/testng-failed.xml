@@ -11,8 +11,8 @@
     </classes>
   </test> <!-- Logincases(failed) -->
   <test thread-count="5" name="Invalid_credentials(failed)">
-    <parameter name="name" value="prabhu12343423"/>
-    <parameter name="name1" value="12345234"/>
+    <parameter name="password" value="12345234"/>
+    <parameter name="username" value="prabhu12343423"/>
     <classes>
       <class name="Logincases.Invalid_credentials">
         <methods>
@@ -22,8 +22,8 @@
     </classes>
   </test> <!-- Invalid_credentials(failed) -->
   <test thread-count="5" name="Valid_username(failed)">
-    <parameter name="name" value="prabhu1234"/>
-    <parameter name="name1" value="1234gsg5"/>
+    <parameter name="password" value="1234gsg5"/>
+    <parameter name="username" value="prabhu1234"/>
     <classes>
       <class name="Logincases.Valid_username">
         <methods>
@@ -33,8 +33,8 @@
     </classes>
   </test> <!-- Valid_username(failed) -->
   <test thread-count="5" name="Valid_Password(failed)">
-    <parameter name="name" value="prabhu"/>
-    <parameter name="name1" value="12345"/>
+    <parameter name="password" value="12345"/>
+    <parameter name="username" value="prabhu"/>
     <classes>
       <class name="Logincases.Valid_Password">
         <methods>

@@ -22,7 +22,7 @@ public class Logincases {
 	}
 	
 	@Test(dataProvider ="logindata" )
-	@Parameters({"name","name1"})
+	@Parameters({"username","password"})
 	
 	public void test1(String username , String passWord) {
 		

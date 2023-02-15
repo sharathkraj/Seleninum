@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class Valid_credentials {
 
     @Test
-	@Parameters({"name","name1"})
+	@Parameters({"username","password"})
 	
 	public void test1(String username , String passWord) {
 		

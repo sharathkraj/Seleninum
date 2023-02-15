@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class Invalid_credentials {
 
 	@Test
-     @Parameters({"name","name1"})
+     @Parameters({"username","password"})
 	
 	public void test4(String username , String passWord) {
 		
