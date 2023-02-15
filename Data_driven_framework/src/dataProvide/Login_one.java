@@ -17,7 +17,7 @@ import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
 
-public class Login {
+public class Login_one {
 	WebDriver driver;
 	
 	 @BeforeTest
@@ -63,7 +63,7 @@ String[][] data = null;
 public String[][] logindataprovider() throws BiffException, IOException {
 	
 	data = gettothedatafromExcel();
-   return data;
+    return data;
 }
 
 @Test(dataProvider ="logindata" )
@@ -71,7 +71,7 @@ public String[][] logindataprovider() throws BiffException, IOException {
 
 public void test1(String username , String passWord) {
 
-
+ 
 driver.get("https://www.mycontactform.com/");
 
 
@@ -83,7 +83,7 @@ password.sendKeys(passWord);
 
 WebElement submit = driver.findElement(By.name("btnSubmit"));
 submit.click();
-    
+     
 WebElement Logout = driver.findElement(By.linkText("Logout"));
 Logout.click();
 

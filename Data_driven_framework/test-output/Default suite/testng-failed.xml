@@ -5,6 +5,8 @@
     <classes>
       <class name="dataProvide.Login">
         <methods>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
           <include name="test1" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- dataProvide.Login -->
