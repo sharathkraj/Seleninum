@@ -9,7 +9,7 @@ public class Constructors {
 		int b;
 				
 		System.out.println("enter the number: ");
-    Scanner b1 = new Scanner(System.in);
+        Scanner b1 = new Scanner(System.in);
 		
 		b = b1.nextInt();
 
@@ -25,15 +25,10 @@ public class Constructors {
 		int a;
 		
 		a=10;
-		
-		
-		
 		System.out.println(a);
 		System.out.println(a++);
 		System.out.println(a);
 		System.out.println(++a);
-		
-	
 		
 	}
 
