@@ -6,6 +6,7 @@ public class IfElse {
 
 	public static void main(String args[]) {
 		System.out.println("pls enter your mark obtained");
+		System.out.println("jenkins");
 		int mark;
 		Scanner sc = new Scanner(System.in);
 		mark = sc.nextInt();
